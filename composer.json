@@ -9,8 +9,9 @@
   "license" : "MIT",
   "require": {
     "php": ">=7.0",
-    "guzzlehttp/guzzle": "^6.2",
-    "phpunit/phpunit": "^5.5",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
     "phpspec/phpspec": "^3.0"
   },
   "config": {
