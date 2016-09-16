@@ -1,0 +1,7 @@
+suites:
+    freshmail-api:
+        spec_path: ./tests/FreshMail
+        spec_prefix: Spec
+        psr4_prefix: FreshMail
+        namespace: FreshMail
+        src_path: ./src/FreshMail

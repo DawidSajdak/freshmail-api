@@ -1,0 +1,25 @@
+{
+  "name": "dawidsajdak/freshmail-api",
+  "authors": [
+    {
+      "name": "Dawid Sajdak",
+      "email": "sajdak.dawid@gmail.com"
+    }
+  ],
+  "license" : "MIT",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^6.2",
+    "phpunit/phpunit": "^5.5",
+    "phpspec/phpspec": "^3.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-0": {
+      "FreshMail": "src/",
+      "FreshMail\\Tests": "tests/"
+    }
+  }
+}
