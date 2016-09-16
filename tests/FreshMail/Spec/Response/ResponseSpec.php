@@ -22,6 +22,6 @@ class ResponseSpec extends ObjectBehavior
 
     function it_has_a_body()
     {
-        $this->getBody()->shouldReturn('{"id":1}');
+        $this->getBody()->shouldReturn('{"status":"OK", "data":{ "id": 1}}');
     }
 }

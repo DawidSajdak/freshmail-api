@@ -45,7 +45,6 @@ class ClientSpec extends ObjectBehavior
     {
         $this->getHeaders()->shouldBeArray();
         $this->getHeaders()->shouldHaveKeyWithValue('X-Rest-ApiKey', self::API_KEY);
-        $this->getHeaders()->shouldHaveKeyWithValue('Content-Type', 'application/json');
     }
 
     function it_should_adds_new_headers()

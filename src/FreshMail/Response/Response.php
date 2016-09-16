@@ -47,9 +47,9 @@ class Response
      */
     private function parseResponseBody(string $responseBody)
     {
-        $responseBody = json_decode($responseBody);
+        $body = json_decode($responseBody);
 
-        $this->status = $responseBody->status;
+        $this->status = $body->status;
         $this->body = $responseBody;
     }
 }
